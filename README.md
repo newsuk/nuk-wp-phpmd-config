@@ -21,7 +21,7 @@ Create a `phpmd.xml.dist` file in your project and add the following:
 ```
 
 ## Composer scripts
-Add the following to `scripts` section in `composer.json` file to run PHPMD `composer phpmd`.
+Add the following to `scripts` section in `composer.json` file and run `composer phpmd`.
 
 
 ```json
