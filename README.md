@@ -29,7 +29,7 @@ Add the following to `scripts` section in `composer.json` file to run PHPMD `com
 "phpmd": "phpmd nuk-wp-methode.php,includes text phpmd.xml.dist --color"
 ```
 
-To generate baseline file for existing plugins use `composer phpmd-baseline`
+Add the following to generate baseline file for existing plugins and run `composer phpmd-baseline`
 
 ```json
 //Update the file and directory names accordingly
