@@ -1,0 +1,15 @@
+{
+    "name": "newsuk/nuk-wp-phpmd-config",
+    "description": "PHPMD configuration for WordPress VIP plugins and themes",
+    "type": "phpmd-standard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Content Platforms",
+            "email": "contentplatforms@news.co.uk"
+        }
+    ],
+    "require": {
+        "phpmd/phpmd": "^2.15"
+    }
+}
