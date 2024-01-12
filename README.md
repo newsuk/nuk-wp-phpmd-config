@@ -21,17 +21,15 @@ Create a `phpmd.xml.dist` file in your project and add the following:
 ```
 
 ## Composer scripts
-Add the following to `scripts` section in `composer.json` file and run `composer phpmd`.
-
+Add the following to `scripts` section in `composer.json` file and run `composer phpmd`, make sure to update the directory and file names accordingly.
 
 ```json
-//Update the file and directory names accordingly
-"phpmd": "phpmd nuk-wp-methode.php,includes text phpmd.xml.dist --color"
+"phpmd": "phpmd plugin.php,includes text phpmd.xml.dist --color"
 ```
 
-Add the following to generate baseline file for existing plugins and run `composer phpmd-baseline`
+Add the following to generate baseline file for existing plugins and run `composer phpmd-baseline`, make sure to update the directory and file names accordingly.
 
 ```json
 //Update the file and directory names accordingly
-"phpmd-baseline": "phpmd nuk-wp-methode.php,includes text phpmd.xml.dist --generate-baseline"
+"phpmd-baseline": "phpmd plugin.php,includes text phpmd.xml.dist --generate-baseline"
 ```
