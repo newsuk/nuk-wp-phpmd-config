@@ -30,6 +30,5 @@ Add the following to `scripts` section in `composer.json` file and run `composer
 Add the following to generate baseline file for existing plugins and run `composer phpmd-baseline`, make sure to update the directory and file names accordingly.
 
 ```json
-//Update the file and directory names accordingly
 "phpmd-baseline": "phpmd plugin.php,includes text phpmd.xml.dist --generate-baseline"
 ```
