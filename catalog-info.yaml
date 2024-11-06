@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nuk-wp-phpmd-config
+  description: PHPMD configuration for WordPress VIP plugins and themes.
+  tags:
+    - wordpress
+    - phpmd
+    - php
+    - static-analysis
+    - coding-standards
+    - bu:newsuk
+  annotations:
+    circleci.com/project-slug: github/newsuk/nuk-wp-phpmd-config
+    jira/project-key: CPNT
+spec:
+  type: library
+  lifecycle: development
+  owner: group:newsuk
